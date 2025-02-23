@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>391</width>
+    <height>285</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Экспорт БД в CSV файл</string>
+  </property>
+  <widget class="QPushButton" name="directory_select_button">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>30</y>
+     <width>251</width>
+     <height>91</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Выбрать директорию для сохранения файла</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="export_button">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>150</y>
+     <width>251</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Экспортирвать БД в файл CSV</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
